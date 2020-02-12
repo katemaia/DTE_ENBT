@@ -4,3 +4,6 @@
 data <- read.table("data/ex_04.txt", header = TRUE, sep = "\t")
 head(data)
 str(data)
+
+table(data$especie)
+  
